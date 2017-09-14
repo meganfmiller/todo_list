@@ -1,0 +1,55 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Todo {
+  width: 100%;
+  background: url(http://www.cooksscience.com/wp-content/uploads/2016/12/hero_Vanilla_LoafPan_015.jpg);
+  background-size: cover;
+  padding: 20px;
+  font-family: montserrat;
+}
+
+.chocolate {
+  width: 100%;
+  height: 100px;
+  background: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX7537436.jpg);
+  background-size: cover;
+}
+
+.Completed {
+  width: 100%;
+  background: url(http://media.istockphoto.com/photos/texture-of-ice-cream-strawberry-top-picture-id688900842?k=6&m=688900842&s=612x612&w=0&h=gijZMA_PdCecvbGxPpi_DAM8FQprTjYgqhwSY2lrP3I=);
+  background-size: cover;
+  padding: 20px;
+  font-family: montserrat;
+}
+
+/* .ice-cream {
+  background: url(http://www.adagio.com/images2/custom_blends/20647.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  opacity: .5;
+} */
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
